@@ -1,10 +1,3 @@
-use master;
-go
-drop database if exists teniski_treninzi
-go
-create database teniski_treninzi;
-go
-use teniski_treninzi;
 
 create table Treneri(
 	Sifra int not null primary key identity(1,1),
