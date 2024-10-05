@@ -1,4 +1,7 @@
 
+
+ALTER DATABASE db_aadef6_tenis COLLATE Croatian_CI_AS;
+
 create table Treneri(
 	Sifra int not null primary key identity(1,1),
 	Ime varchar(50) not null,
