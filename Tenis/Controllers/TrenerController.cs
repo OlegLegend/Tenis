@@ -48,7 +48,7 @@ namespace EdunovaAPP.Controllers
         [Produces("application/json")]
         public IActionResult Put(int sifra, Trener e) 
         {
-            var eb = _context.Treneri.Find(e);
+            var eb = _context.Treneri.Find(sifra);
 
             // za sada ručno, kasnije mapper
             eb.Ime=e.Ime;
