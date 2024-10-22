@@ -47,7 +47,7 @@ export default function TreneriPregled(){
     return(
         <>
         <Link to={RouteNames.TRENER_NOVI}
-        className="btn btn-success siroko">Dodaj novi Trener</Link>
+        className="btn btn-success siroko">Dodaj novog Trenera</Link>
         <Table striped bordered hover responsive>
             <thead>
                 <tr>

@@ -64,13 +64,13 @@ export default function TreneriPromjena(){
             </Form.Group>
         <Row className="akcije">
             <Col xs={6} sm={12} md={3} lg={6} xl={6} xxl={6}>
-            <Link to={RouteNames.Trener_PREGLED} 
+            <Link to={RouteNames.TRENER_PREGLED} 
             className="btn btn-danger siroko">Odustani</Link>
             </Col>
             <Col xs={6} sm={12} md={9} lg={6} xl={6} xxl={6}>
             <Button variant="success"
             type="submit"
-            className="siroko">Promjeni Trener</Button>
+            className="siroko">Promjeni Trenera</Button>
             </Col>
         </Row>
         </Form>

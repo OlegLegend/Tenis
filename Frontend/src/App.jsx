@@ -25,7 +25,7 @@ function App() {
 
       </Routes>
       <hr/>
-      &copy; Edunova
+      &copy; Oleg
     </Container>
     
     </>
